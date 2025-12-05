@@ -2,3 +2,37 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+/* Базовые цвета (тёмная тема) */
+:root {
+  --bg-color: #000028;
+  --text-color: #F1B2CE;
+  --accent-color: #FF0070;
+  --title-color: #DB00FF;
+  --text-accent-color: #000028;
+  /* Типографика */
+  --font-family: 'IBM Plex Mono', monospace;
+  --font-size-base: 18px;
+  --font-weight-base: 400;
+  --font-weight-bold: 700;
+  --line-height-base: 23.4px;
+}
+
+.theme-light {
+  --bg-color: #FFF1F7;
+  --text-color: #353430;
+  --accent-color: #FF8DCB;
+  --title-color: #FFC2E6;
+  --text-accent-color: #353430;
+  
+}
+
+@media (prefers-color-scheme: light) {
+  :root.theme-auto {
+    --bg-color: #FFF1F7;
+    --text-color: #353430;
+    --accent-color: #FF8DCB;
+    --title-color: #FFC2E6;
+    --text-accent-color: #353430;
+  }
+}
