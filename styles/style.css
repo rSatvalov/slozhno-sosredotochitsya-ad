@@ -278,7 +278,7 @@ a:focus {
   line-height: 0.83;
   margin-top: 327px;
   margin-left: -4px;
-  box-sizing: border-box; /* добавить */
+  box-sizing: border-box;
 }
 
 .footer.decorated-zone::before {
