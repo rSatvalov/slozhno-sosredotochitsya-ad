@@ -15,24 +15,7 @@
   display: none;
 }
 
-@media (prefers-color-scheme: light) {
-  :root.theme-auto {
-    --bg-color: #FFF1F7;
-    --text-color: #353430;
-    --accent-color: #FF8DCB;
-    --title-color: #FFC2E6;
-    --text-accent-color: #353430;
-  }
-  
-  :root.theme-auto .page {
-    background-image: url('../images/cover-image-light.png');
-  }
-  
-  :root.theme-auto .title__section {
-    color: var(--text-accent-color);
-  }
 
-  :root.theme-auto .decorated-zone_rec {
-    display: none;
-  }
+:root.theme-light .header__theme-menu-list {
+  color: var(--text-accent-color)
 }
