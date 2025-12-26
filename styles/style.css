@@ -258,14 +258,27 @@ a:focus {
   
 }
 
-.gallery__image:nth-child(1) { height: 142px; }
-.gallery__image:nth-child(2) { height: 355px; }
-.gallery__image:nth-child(3) { height: 237px; }
-.gallery__image:nth-child(4) { height: 355px; }
-.gallery__image:nth-child(5) { height: 237px; }
+.gallery__image:nth-child(1) {
+  height: 142px;
+}
+
+.gallery__image:nth-child(2) {
+  height: 355px;
+}
+
+.gallery__image:nth-child(3) {
+  height: 237px;
+}
+
+.gallery__image:nth-child(4) {
+  height: 355px;
+}
+
+.gallery__image:nth-child(5) {
+  height: 237px;
+}
 
 /* footer */
-
 
 
 .footer__title {
